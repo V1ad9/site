@@ -1,0 +1,141 @@
+
+
+
+
+.content_block
+{
+    clear: both;
+    padding: 0 45px 33px;
+}
+
+
+.left_first_block
+{
+    border: 5px solid #B0B0B0;
+    float: left;
+    height: 299px;
+    padding: 5px;
+    position: relative;
+    width: 45%;
+}
+.left_second_block
+{
+    border: 5px solid #B0B0B0;
+    float: left;
+    height: 299px;
+    padding: 5px;
+    position: relative;
+    width: 45%;
+}
+
+
+.right_third_block
+{
+	border: 5px solid #B0B0B0;
+    float: right;
+    width: 45%;
+    height: 299px;
+    position: relative;
+	padding: 5px;
+ 
+}
+.right_four_block
+{
+	border: 5px solid #B0B0B0;
+    float: right;
+    width: 45%;
+    height: 299px;
+    position: relative;
+	padding: 5px;
+ 
+}
+
+.second_content_block
+{
+    padding: 0 0 23px;
+    margin-bottom: 29px;
+    border-bottom: 1px solid #CCCCCCC;
+}
+
+
+.third_content_block
+{
+    border-bottom: 1px solid #CCCCCCC;
+    padding: 0 0 59px;
+}
+
+.news
+{
+    float: left;
+    width: 26%;
+}
+
+
+.news .title
+{
+    color: #565656;
+    font: 18px/26px Arial;
+    margin: 0 0 31px 1px;
+    text-transform: uppercase;
+}
+
+
+.about_us
+{
+    border-left: 1px solid #E5E5E5;
+    float: left;
+    min-height: 275px;
+    margin: 0 0 0 10px;
+    padding-bottom: 8px;
+    padding-left: 36px;
+    width: 27%;
+    position: relative;
+}
+
+
+.about_us .title
+{
+    color: #565656;
+    font: 18px Arial;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+
+.contacts
+{
+    border-left: 1px solid #E5E5E5;
+    float: left;
+    height: 275px;
+    margin: 0 0 0 33px;
+    padding-bottom: 8px;
+    padding-left: 44px;
+    width: 24%;
+}
+
+
+.contacts .title
+{
+    color: #565656;
+    font: 23px Arial;
+    margin: -2px 0 12px 7px;
+}
+
+
+.clients
+{
+    margin-left: 65px;
+    position: relative;
+}
+
+
+.clients_title
+{
+    background-color: #FFFFFF;
+    color: #343434;
+    font: 14px Tahoma;
+    left: -27px;
+    padding: 0 9px 0 6px;
+    position: absolute;
+    top: -10px;
+}

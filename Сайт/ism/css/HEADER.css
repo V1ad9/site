@@ -1,0 +1,136 @@
+/*Заголовок*/
+.header
+	{
+		padding-left: 90px;
+		padding-top: 40px;
+	}
+	.header .logo
+	{
+		background: url("../img/logo_main.png") no-repeat scroll left top transparent ;
+		color: #3C3C3C;
+		display: block;
+		float: left;
+		font: 20px Helvetica;
+		
+		margin: 1px auto;
+		padding: 15px 1px 6px 154px;
+		text-decoration: none;
+		padding-top: 50px;
+    height: 80px;
+    padding-bottom: 20px;
+	}
+	
+.header .motto
+{
+    border-left: 1px solid #CAC8C5;
+    float: left;
+    height: 94px;
+    margin: 0 0 34px 33px;
+    padding: 48px 0 0 96px;
+}
+
+.header .motto .big_orange
+{
+    color: #f2AC04;
+    font: 40px Arial;
+    text-transform: uppercase;
+}
+
+.header .motto .small_gray
+{
+    color: #929292;
+    font: 14px/24px Tahoma;
+}
+
+
+
+/*MENU*/
+.top_menu
+{
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    clear: both;
+    height: 42px;
+    list-style: outside none none;
+    margin: 0 45px 59px -45px;
+    padding-left: center;
+	top: 100%;
+}
+
+
+.top_menu li
+{
+    float: left;
+    margin-right: 40px;
+}
+
+
+.top_menu li.last
+{
+    margin-right: 0;
+}
+
+
+.top_menu li a
+{
+    color: black;
+    font: 18px/40px Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+	
+}
+
+
+.top_menu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  height: 50px; /*задаем высоту*/
+}
+
+
+.top_menu a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+
+
+.top_menu a:hover {
+	border-top-left-radius: 100% 20px; border-bottom-right-radius: 100% 20px;
+  background:#FFF8DC;/*добавляем эффект при наведении*/
+}
+
+
+.top_menu li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+  .top_menu  li > ul {
+        position:absolute;
+        top:16px;
+        display:none;   
+    }
+     
+	 
+    /*Делаем скрытую часть видимой*/
+  .top_menu  li:hover > ul 
+{
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/      
+    }
+	
+	
+  .top_menu li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+    }
